@@ -4,6 +4,15 @@
     padding: 0;
     box-sizing: 0;
 }
+/* share style start here  */
+:root{
+    --orange-color:#FF5400;
+    --drak-1:rgba(19, 19, 24, 1);
+    --dark-2:rgba(90, 90, 93, 1);
+    --white-color:rgba(255, 255, 255, 1);
+    --gray-color:rgba(19, 19, 24, 0.5);
+}
+/* share style ends here  */
 /*!universal selector ends  here  */
 /* nav section start here  */
 
