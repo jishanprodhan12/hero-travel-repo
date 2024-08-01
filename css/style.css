@@ -11,6 +11,13 @@ a{
     text-decoration: none;
 }
 /*! universal style ends here  */
+
+/*todo font setup start here  */
+.mulish-font {
+  font-family: "Mulish", sans-serif;
+  font-optical-sizing: auto;
+}
+/*! font setup ends here  */
 /* share style start here  */
 :root{
     --orange-color:#FF5400;
