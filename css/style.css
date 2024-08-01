@@ -116,13 +116,22 @@ header{
 @keyframes fly-logo {
     0%{
         left:0%;
+        transform: none;
+    }
+    90%{
+        left: 100%;
+        transform: none;
+    }
+    99%{
+        left: 100%;
+        transform: rotate(180deg);
     }
     100%{
-        left: 100%;
+        left: 10%;
     }
 }
 .nav-bar-main:hover .header-logo{
-    animation: fly-logo 3s ease-in-out 100ms 1 alternate ;
+    animation: fly-logo 5s ease-in-out 100ms 1 alternate ;
 }
 .nav-links >ul li:first-child a:hover{
     box-shadow: 1px 1px 10px whitesmoke;
