@@ -1,0 +1,75 @@
+/* style for small device...mobile  */
+@media screen and (max-width: 576px) {
+/*? header section start here  */
+header{
+    height: fit-content;
+}
+.header-section-container{
+    height: fit-content;
+}
+.nav-bar-main{
+    height: max-content;
+}
+.nav-links{
+    display: none;
+}
+.hamburger{
+    display: block;
+}
+.nav-header-container {
+    border: 2px solid rgb(79, 9, 15);
+    width: max-content;
+    height: 40px;
+    gap: 16.63px;
+}
+.header-logo{
+    height: 40px;
+}
+.header-title {
+    width: 90%;
+    height: 50%;
+    font-weight: bolder;
+    font-size: 20px;
+}
+/* banner section start here  */
+.banner-section{
+    margin-top: 10px;
+    height: 480px;
+    background-image: linear-gradient(180deg, rgba(19, 19, 24, 1) ,rgba(35, 35, 40, 0.084) 90%) ,url('../Images/Group\ 13\ \(1\)\ \(1\).png');
+}
+
+.banner-section-container {
+    width: 90%;
+    height: fit-content;
+
+}
+.banner-section-text-container{
+    width: 100%;
+    margin-bottom: 30px;
+    height: fit-content;
+}
+.banner-title{
+    font-size: 1.6em;
+    width: 100%;
+}
+.banner-text{
+    font-size: .80em;
+
+}
+/* banner input start here  */
+.banner-section-input-container{
+    width: 100%;
+    height: fit-content;
+    grid-template-columns: repeat(1,174px);
+    /* justify-content: center; */
+}
+.input-cotainer{
+    border: 2px solid paleturquoise;
+    width: 200px;
+    height: 42px;
+    margin: 16px;
+}
+/*! header section end here  */
+
+}
+

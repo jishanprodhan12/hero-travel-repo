@@ -203,14 +203,20 @@ header{
     display: grid;
     grid-template-columns: repeat(4,174px);
     align-items: center;
-    gap: 15px;
+    column-gap: 15px;
+    border-radius: 16px;
+    background-color: rgba(255, 255, 255, 0.3);
 }
 .input-cotainer{
     border: 2px solid paleturquoise;
-    width: 120px;
+    width: 130px;
     height: 42px;
     display: flex;
     align-items: center;
+   border-radius: 6px;
+}
+#input-cotainer-1{
+    margin-left: 16px;
 }
 .input-cotainer > input[type="text"] , select{
    width: 100%;
@@ -218,6 +224,11 @@ header{
     border: none;
    border-radius: 6px;
    padding-left: 10px;
+   color: var(--gray-color);
+}
+
+.input-cotainer > input[type="text"]:focus , select:focus{
+    color:var(--drak-1);
 }
 .btn-find{
     width: 100%;
