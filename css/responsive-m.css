@@ -2,7 +2,52 @@
 
 @media screen  and (min-width: 577px) and (max-width: 992px) {
 /*? header section start here  */
-
+header{
+    height: fit-content;
+}
+.header-section-container{
+    height: fit-content;
+}
+.nav-header-container {
+    border: 2px solid rgb(79, 9, 15);
+    width: max-content;
+    height: 40px;
+    gap: 16.63px;
+}
+.header-logo{
+    height: 40px;
+}
+.header-title {
+    width: 90%;
+    height: 50%;
+    font-weight: bolder;
+    font-size: 20px;
+}
+.nav-links > ul li{
+    font-size: 16px;
+}
+/*todo hover nav style  */
+.nav-links >ul li:hover{
+    transform: scale(1.1);
+}
+/* banner section start here  */
+.banner-section{
+    margin-top: 30px;
+}
+.banner-section-container{
+    width: 100%;
+}
+.banner-section-input-container{
+    grid-template-columns: repeat(2,174px);
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    height: fit-content;
+    margin-top: 20px;
+}
+#input-cotainer-1{
+    margin-left: 0;
+}
 /*! header section end here  */
     
 }

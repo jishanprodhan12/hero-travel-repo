@@ -17,7 +17,6 @@ header{
     display: block;
 }
 .nav-header-container {
-    border: 2px solid rgb(79, 9, 15);
     width: max-content;
     height: 40px;
     gap: 16.63px;
@@ -35,7 +34,7 @@ header{
 .banner-section{
     margin-top: 10px;
     height: 480px;
-    background-image: linear-gradient(180deg, rgba(19, 19, 24, 1) ,rgba(35, 35, 40, 0.084) 90%) ,url('../Images/Group\ 13\ \(1\)\ \(1\).png');
+    background-image: linear-gradient(180deg, rgba(19, 19, 24, 1) ,rgba(54, 54, 60, 0.137) 90%) ,url('../Images/Group\ 13\ \(1\)\ \(1\).png');
 }
 
 .banner-section-container {
@@ -45,12 +44,13 @@ header{
 }
 .banner-section-text-container{
     width: 100%;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
     height: fit-content;
 }
 .banner-title{
     font-size: 1.6em;
     width: 100%;
+    padding-bottom: 10px;
 }
 .banner-text{
     font-size: .80em;
@@ -64,7 +64,6 @@ header{
     /* justify-content: center; */
 }
 .input-cotainer{
-    border: 2px solid paleturquoise;
     width: 200px;
     height: 42px;
     margin: 16px;
