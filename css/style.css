@@ -207,9 +207,30 @@ header{
 }
 .input-cotainer{
     border: 2px solid paleturquoise;
-    width: 150px;
-    height: 52px;
-
+    width: 120px;
+    height: 42px;
+    display: flex;
+    align-items: center;
+}
+.input-cotainer > input[type="text"] , select{
+   width: 100%;
+   height: 100%;
+    border: none;
+   border-radius: 6px;
+   padding-left: 10px;
+}
+.btn-find{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+    background-color: var(--orange-color);
+    border-radius: 6px;
+    color: var(--white-color);
+    border: none;
+    
 }
 
 
