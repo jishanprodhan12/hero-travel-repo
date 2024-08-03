@@ -44,10 +44,51 @@ header{
     justify-content: center;
     height: fit-content;
     margin-top: 20px;
+    width: 90%;
 }
 #input-cotainer-1{
     margin-left: 0;
 }
 /*! header section end here  */
-    
+ /* popular tours section start here  */
+ .tour-section{
+    height: fit-content;
+ }
+ .tour-section-container{
+    height: fit-content;
+ }
+ .tour-text-container{
+    justify-content: space-evenly;
+    height: 500px;
+ }
+.tour-title{
+    width: 100%;
+ }
+ .tour-image-container{
+    height: 80%;
+ }
+/*! popular tours section ends  here  */ 
+/* Choose Your Destination section start here*/
+.destination-text-container{
+    width:100%;
+    height: fit-content;
+    padding-top: 10px;
+    gap: 10px;
+} 
+.destination-image-container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.img-box-1 , .img-box-2 ,
+.img-box-3 , .img-box-4 ,
+.img-box-5 , .img-box-6 ,
+.img-box-7{
+    width: 90%;
+    height: 200px;
+    margin: 0 auto;
+}
+
+/*! Choose Your Destination section ends here*/
+  
 }

@@ -69,6 +69,58 @@ header{
     margin: 16px;
 }
 /*! header section end here  */
+/* popular tours section start here  */
+.tour-section{
+    height: fit-content;
+}
+
+.tour-section-container{
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+}
+.tour-text-container{
+    width: 100%;   
+    gap: 10px;
+}
+.tour-title{
+    width: 100%;
+    font-size: var(--sub-title-font-size);
+    padding: 5px 0;
+}
+.tour-pera-3{
+    width: 95%;
+}
+.tour-image-container{
+    width: 100%;
+    height: fit-content;
+}
+/*! popular tours section ends  here  */
+/* Choose Your Destination section start here*/
+.destination-text-container{
+    width:100%;
+    height: fit-content;
+    padding-top: 10px;
+    gap: 10px;
+}
+.destination-title{
+    font-size: var(--sub-title-font-size);
+}
+/* image style start here  */
+.destination-image-container{
+    height: calc( 100% - 180px);
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.img-box-1 , .img-box-2 ,
+.img-box-3 , .img-box-4 ,
+.img-box-5 , .img-box-6 ,
+.img-box-7{
+    width: 100%;
+    height: 174px;
+}
+/*! Choose Your Destination section ends here*/
 
 }
 
