@@ -90,5 +90,28 @@ header{
 }
 
 /*! Choose Your Destination section ends here*/
-  
+  /* Why Choose Us section start here  */
+  .choose-us-section-container{
+    height: fit-content;
+    gap: 15px;
+}
+.choose-us-text-container{
+    width:100%;
+    height: fit-content;
+    gap: 20px;
+}
+.choose-us-title{
+    font-size: var(--sub-title-font-size);
+}
+.choose-us-card-contianer{
+    gap: 10px;
+    height: fit-content;
+    justify-content: center;
+}
+.choose-us-card {
+    height: 250px;
+    width: 450px;
+}
+
+/*! Why Choose Us section ends here  */
 }
