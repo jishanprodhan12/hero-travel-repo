@@ -646,8 +646,30 @@ header{
 .tour-icon-container{
     width: 90%;
     border: 2px solid purple;
-    height: 24px;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
+.watch , .frame , .location{
+    width: 20px;
+    height: 20px;
+}
+.watch img , .frame img , .location img{
+    width: 100%;
+    height: 100%;
+}
+.tour-item-1 , .tour-item-2 , .tour-item-3{
+    border: 2px solid red;
+    width: fit-content;
+    display: flex;
+    gap: 7px;
+}
+.tour-item-1 p , .tour-item-2 p , .tour-item-3 p {
+    border: 1px dotted violet;
+    font-size: small;
+}
+
 .tour-title{
     width: fit-content;
     height: fit-content;
