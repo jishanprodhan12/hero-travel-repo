@@ -9,7 +9,6 @@ header{
     height: fit-content;
 }
 .nav-header-container {
-    border: 2px solid rgb(79, 9, 15);
     width: max-content;
     height: 40px;
     gap: 16.63px;
@@ -114,4 +113,7 @@ header{
 }
 
 /*! Why Choose Us section ends here  */
+/* Deals & Discounts section start here  */
+
+/*! Deals & Discounts section ends here  */
 }

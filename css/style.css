@@ -555,6 +555,122 @@ header{
         width: 400px;
     }
 }
-/* todo responsive for 1024 device small laptop  ends here */
+/*? responsive for 1024 device small laptop  ends here */
 /*! Why Choose Us section ends here  */
+/* Deals & Discounts section start here  */
+.deals-section{
+    max-width: 1440px;
+    height: 1700px;
+    margin: 0 auto;
+    border: 2px solid violet;
+}
+.deals-section-container{
+    width: 85%;
+    height: 1700px;
+    margin: 0 auto;
+    border: 2px solid red;
+}
+.deals-text-container{
+    width: 60%;
+    height: 100px;
+    margin: 40px auto;
+    border: 2px solid rebeccapurple;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.deals-title{
+    width: fit-content;
+} 
+.deals-pera{
+    width: fit-content;
+}
+.deals-tour-card-container{
+    border: 2px solid tomato;
+    width: 100%;
+    height: 1500px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.tour-deals-1 ,.tour-deals-3{
+    width: 100%;
+    height: 480px;
+    border: 2px solid blue;
+    border-radius: 16px;
+    background-image: url('../Images/Group\ 39.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.tour-deals-2{
+    width: 100%;
+    height: 480px;
+    border: 2px solid blue;
+    border-radius: 16px;
+    background-image: url('../Images/Group\ 40.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.tour-child-card-container-1 ,.tour-child-card-container-3{
+    width: 500px;
+    height: 360px;
+    border-radius: 16px;
+    border: 2px solid red;
+    margin: 50px;
+    margin-left: auto;
+    background-color: rgba(255, 255, 255, 0.703);
+    fill-opacity: 100%;
+  
+}
+.tour-child-card-container-2{
+    width: 500px;
+    height: 360px;
+    border-radius: 16px;
+    border: 2px solid red;
+    margin: 50px;
+    margin-right: auto;
+    background-color: rgba(255, 255, 255, 0.703);
+    fill-opacity: 100%;
+}
+.tour-child-card-contant{
+    border: 2px solid black;
+    margin: 30px;
+    margin-right: 40px;
+    width: 85%;
+    height: 80%;
+}
+.tour-icon-container{
+    width: 90%;
+    border: 2px solid purple;
+    height: 24px;
+}
+.tour-title{
+    width: fit-content;
+    height: fit-content;
+    border: 2px dotted peru;
+    font-size: var(--sub-title-font-size);
+}
+.tour-pera {
+    border: 2px dotted peru;
+    width: fit-content;
+    height: fit-content;
+    text-align: left;
+}
+.tour-price{
+    border: 2px dotted peru;
+    width: fit-content;
+    height: fit-content;
+    font-size: 20px;
+    font-weight: bolder;
+    color: var(--orange-color);
+}
+.book-now-btn{
+    width: 140px;
+}
+/*! Deals & Discounts section ends here  */
+
 
