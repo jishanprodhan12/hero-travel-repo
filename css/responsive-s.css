@@ -238,5 +238,16 @@ hr{
     left: 25%;
 }
 /*! Newsletter section ends  here */
+/* footer section start here  */
+.footer-section-container{
+    height: 250px;
+}
+.footer-pera{
+    width: 100%;
+}
+.footer-icon-container{
+    width: 60%;
+}
+/*! footer section ends here  */
 }
 
