@@ -145,4 +145,15 @@ header{
     height: 320px;
 }
 /*! Simple Perfect Place section ends  here */
+/*? Newsletter section start  here */
+.news-text-input-container{
+    width: 45%;
+}
+.news-pera{
+    width: fit-content;
+}
+.news-image-container{
+    width: 50%;
+}
+/*! Newsletter section ends  here */
 }
