@@ -140,5 +140,9 @@ header{
 .place-list-pera{
     height: fit-content;
 }
+.place-video-container{
+    width: 48%;
+    height: 320px;
+}
 /*! Simple Perfect Place section ends  here */
 }

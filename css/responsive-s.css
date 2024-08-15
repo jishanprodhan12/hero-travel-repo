@@ -185,7 +185,7 @@ header{
 /*? Simple Perfect Place section start here  */
 .place-section-container{
     flex-direction: column;
-    height: 800px;
+    height:fit-content;
 }
 .place-text-container{
     width: 100%;
@@ -199,6 +199,9 @@ header{
 .place-list-pera{
     width: 90%;
     height: 140px;
+}
+.place-video-container{
+    width: 100%;
 }
 /*! Simple Perfect Place section ends  here */
 }
