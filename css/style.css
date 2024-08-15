@@ -39,6 +39,7 @@ a{
         display: flex;
         justify-content: center;
         align-items: center;
+        font-weight: bold;
         background-color: var(--orange-color);
         border-radius: 6px;
         color: var(--white-color);
@@ -687,3 +688,61 @@ header{
     margin: 30px auto;
 }
 /*! Deals & Discounts section ends here  */
+/*? Simple Perfect Place section start here  */
+.place-section{
+    max-width: 1440px;
+    border:2px solid violet;
+    height: fit-content;
+    margin: 0 auto;
+}
+.place-section-container{
+    width: 85%;
+    border: 2px solid red ;
+    height: 550px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.place-text-container{
+    width: 48%;
+    height: 300px;
+    border: 2px solid blueviolet;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.place-title{
+    border: 2px solid brown;
+    width: 75%;
+    height: fit-content;
+    text-align: left;
+}
+.place-pera{
+    border: 2px solid brown;
+    width: 85%;
+    height: fit-content;
+    text-align: left;
+}
+.place-list-pera{
+    border: 2px solid brown;
+    width: 95%;
+    height: 100px;
+    padding-left: 15px;
+    font-weight: 600;
+    font-size: small;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.place-list-pera ul li{
+    list-style: disc;
+
+}
+
+.place-video-container{
+    width: 48%;
+    height: 300px;
+    border: 2px solid blue;
+}
+/*! Simple Perfect Place section ends  here */

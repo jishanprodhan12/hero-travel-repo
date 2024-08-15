@@ -128,4 +128,17 @@ header{
     margin-right: auto;
 }
 /*! Deals & Discounts section ends here  */
+/*? Simple Perfect Place section start here  */
+.place-text-container{
+    width: 48%;
+    height: 320px;
+}
+.place-title{
+    width: 100%;
+    font-size: 26px;
+}
+.place-list-pera{
+    height: fit-content;
+}
+/*! Simple Perfect Place section ends  here */
 }

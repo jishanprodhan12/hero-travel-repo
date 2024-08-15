@@ -182,5 +182,24 @@ header{
     display: none;
 }
 /*! Deals & Discounts section ends here  */
+/*? Simple Perfect Place section start here  */
+.place-section-container{
+    flex-direction: column;
+    height: 800px;
+}
+.place-text-container{
+    width: 100%;
+    height: 400px;
+}
+.place-title{
+    width: 280px;
+    font-size: 24px;
+    font-weight: bolder;
+}
+.place-list-pera{
+    width: 90%;
+    height: 140px;
+}
+/*! Simple Perfect Place section ends  here */
 }
 
