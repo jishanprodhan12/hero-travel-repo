@@ -60,8 +60,9 @@ header{
 .banner-section-input-container{
     width: 100%;
     height: fit-content;
-    grid-template-columns: repeat(1,174px);
-    /* justify-content: center; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 .input-cotainer{
     width: 200px;

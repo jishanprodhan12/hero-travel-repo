@@ -213,7 +213,7 @@ header{
 /* banner-text-container ends here  */
 
 .banner-section-input-container{
-    width: 100%;
+    width: fit-content;
     height: 85px;
     display: grid;
     grid-template-columns: repeat(4,174px);
