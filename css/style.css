@@ -257,6 +257,9 @@ header{
     color: var(--white-color);
     border: none;
 }
+.btn-find:hover , .btn-primary:hover{
+    cursor: pointer;
+}
 /*! header section ends here  */
 /* popular tours section start here  */
 .tour-section{
@@ -524,6 +527,9 @@ header{
 .card-icon img{
     width: 100%;
     height: 100%;
+}
+.card-icon:hover{
+    transform: scale(1.25) translateX(3px) translateY(-3px);
 }
 .card-title{
     width: fit-content;
