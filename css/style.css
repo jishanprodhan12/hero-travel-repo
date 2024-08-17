@@ -166,6 +166,44 @@ header{
     transition: transform 100ms ease-in-out 5ms;
     transform: scale(1.25);
 }
+.side-bar{
+    display: flex ;
+    flex-direction: column;
+    z-index: 999;
+    height: 80vh;
+    width: 100%;
+    padding-top: 30px;
+    align-items: center;
+    background-color: aliceblue;
+    filter: blur(8%);
+    display: none;
+}
+.side-bar li {
+    padding-top: 1rem;
+    padding-bottom: 16px;
+
+}
+.side-bar >  li a{
+    color: var(--nav-color);
+}
+.side-bar >  li:first-child{
+    font-size: 1.5rem;
+}
+.side-bar >  li:first-child:hover{
+    transform: rotate(180deg);
+    transition: transform .30s ease;
+}
+.side-bar > li:first-child a:hover{
+    color: red;
+}
+.side-bar  li a:hover {
+    color: var(--orange-color);
+}
+.side-bar  li:hover{
+    transition: transform 100ms ease-in-out 5ms;
+    transform: scale(1.25);
+}
+
 /*! nav section ends  here  */
 /* banner section start here  */
 .banner-section{

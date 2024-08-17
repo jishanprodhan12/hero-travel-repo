@@ -23,7 +23,7 @@
         <!-- nav section start here  -->
         <section class="header-section-container">
             <nav class="nav-bar-main">
-                <div class="nav-header-container">
+                <div class="nav-header-container" >
                     <div class="header-logo">
                         <img src="Images/Group 40071 (2).png" alt="logo">
                     </div>
@@ -38,10 +38,33 @@
                         <li><a href="#">Contact</a></li>
                     </ul>
                 </div>
-                <div class="hamburger">
+                <div onclick=showSidebar() class="hamburger">
                     <i class="fa-solid fa-bars"></i>
                 </div>
             </nav>
+            <ul class="side-bar ">
+                <li onclick=hideSidebar() id="cross-bar"><a href="#"><i class="fa-solid fa-x"></i></a></li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Packages</a></li>
+                <li><a href="#">Testimonial</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            <script>
+                function showSidebar(){
+                    const sidebar =document.querySelector('.side-bar')
+                    sidebar.style.display = 'flex'
+                    const hamburger=document.querySelector('hamburger')
+                    hamburger.style.display = 'none'
+                }
+                
+                function hideSidebar(){
+                    const closebar=document.querySelector('#cross-bar')
+                    const sidebar =document.querySelector('.side-bar')
+                    sidebar.style.display = 'none'
+                    
+                }
+            </script>
             <div class="banner-section">
                 <div class="banner-section-container">
                     <div class="banner-section-text-container">
@@ -332,6 +355,7 @@
          </section>
         <!--! Newsletter section ends  here  -->
     </main>
+    <!-- footer start here  -->
     <footer>
             <section class="footer-section-container">
                 <div class="footer-logo-container">
@@ -352,5 +376,6 @@
                 <p class="copy-right">2024, &copy; All Rights Reserved.</p>
             </section>
     </footer>
+    <!--! footer ends here  -->
 </body>
 </html>
